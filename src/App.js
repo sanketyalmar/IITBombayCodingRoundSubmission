@@ -95,7 +95,7 @@ const App = () => {
           (card) => card.id === id
         );
         if (cardIndex !== -1) {
-          updatedColumns[column][cardIndex] = { id, title, description }; // Replace existing card data
+          updatedColumns[column][cardIndex] = { id, title, description }; 
         }
         setColumns(updatedColumns);
       } else {
